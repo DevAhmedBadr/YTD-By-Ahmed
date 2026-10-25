@@ -36,7 +36,6 @@ while True:
 
     ydl_opts = {
         'outtmpl': f'{save_path}/%(title)s.%(ext)s',
-        'ffmpeg_location': r'C:\Users\ahmed\AppData\Local\Microsoft\WinGet\Links\ffmpeg.exe',
         'format': 'bestvideo*+bestaudio/best'
     }
 
